@@ -9,6 +9,16 @@ public class Maya extends Bird implements Flyable{
     }
 
     @Override
+    public void eat() {
+        System.out.println("Maya is eating");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("Maya is sleeping");
+    }
+
+    @Override
     public void fly() {
         System.out.println("Maya is flying");
     }

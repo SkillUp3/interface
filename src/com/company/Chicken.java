@@ -8,4 +8,16 @@ public class Chicken extends Bird {
         super(name, weight);
     }
 
+    @Override
+    public void eat() {
+        System.out.println("Chicken is eating");
+
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("CHicken is sleeping");
+    }
+
+
 }

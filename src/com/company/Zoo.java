@@ -10,6 +10,12 @@ public class Zoo {
         philippineEagle.fly();
         Chicken chicken = new Chicken("chicken", 3);
         chicken.eat();
+        chicken.sleep();
+//        Animal animal = new Animal();
+//        Bird bird = new Bird()
 
     }
+
 }
+
+
